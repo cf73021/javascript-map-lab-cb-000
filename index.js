@@ -27,9 +27,7 @@ var sortedRobots = robots.map(function(robot) {
     return Object.assign({}, robot, {
       alliance: 'decepticon'
     }
-  }  
-
-
-    else {alliance: 'autobot'}
+  }
+  else {return Object.assign({}, robot, {alliance: 'autobot'})
   })
 })
