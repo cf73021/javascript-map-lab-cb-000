@@ -31,3 +31,7 @@ var sortedRobots = robots.map(function(robot) {
   else {return Object.assign({}, robot, {alliance: 'autobot'})
   }
 })
+
+var coloredZebraStripes = zebraStripes.map(function(stripe){
+  if (stripe % 2 == 0)
+})
