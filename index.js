@@ -33,5 +33,5 @@ var sortedRobots = robots.map(function(robot) {
 })
 
 var coloredZebraStripes = zebraStripes.map(function(stripe){
-  if (stripe % 2 == 0)
+  if (stripe % 2 === 0)
 })
