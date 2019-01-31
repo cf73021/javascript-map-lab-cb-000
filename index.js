@@ -32,7 +32,7 @@ var sortedRobots = robots.map(function(robot) {
   }
 })
 
-const coloredZebraStripes = zebraStripes.map(function(stripe){
+var coloredZebraStripes = zebraStripes.map(function(stripe){
   var lastString = stripe.width.toString().slice(-1)
   var lastDigit = parseInt(lastString, 10)
 
