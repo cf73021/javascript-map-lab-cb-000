@@ -22,4 +22,8 @@ const zebraStripes = [
   { width: 7.31, color: null }
 ];
 
-var sortedRobots = robots.map()
+var sortedRobots = robots.map(function(robot) {
+  return Object.assign({}, robot, {
+    alliance: 'autobot'
+  })
+})
