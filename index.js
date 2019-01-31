@@ -34,7 +34,7 @@ var sortedRobots = robots.map(function(robot) {
 
 var coloredZebraStripes = zebraStripes.map(function(stripe){
   var lastString = zebra.width.toString().slice(-1)
-var lastDigit = parseInt(lastString, 10)
+  var lastDigit = parseInt(lastString, 10)
   if (stripe.width % 2 == 0){ return Object.assign({}, stripe, {
     color: 'black'
   })}
